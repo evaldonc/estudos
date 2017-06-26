@@ -19,8 +19,7 @@
 					<h:inputSecret value="#{loginBean.usuario.senha}" required="true" id="senha" />
 
 				    <f:facet name="footer">  
-						<p:commandButton value="Logar" action="#{loginBean.efetuaLogin}" 
-															 update=":mensagens @form" />
+						<p:commandButton value="Logar" action="#{loginBean.efetuaLogin}" update=":mensagens @form" />
 					</f:facet>
 				</p:panelGrid>
 			</h:form>
